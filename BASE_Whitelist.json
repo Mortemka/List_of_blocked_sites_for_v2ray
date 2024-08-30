@@ -1,0 +1,54 @@
+[
+    {
+        "id": "5243120666392667087",
+        "outboundTag": "direct",
+        "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+        ],
+        "enabled": true
+    },
+    {
+        "id": "4777564182542673789",
+        "port": "443",
+        "network": "udp",
+        "outboundTag": "block",
+        "enabled": true
+    },
+    {
+        "id": "4884016907967917297",
+        "outboundTag": "block",
+        "domain": [
+            "geosite:category-ads-all"
+        ],
+        "enabled": true
+    },
+    {
+        "id": "4636945716345662844",
+        "outboundTag": "direct",
+        "domain": [
+            "geosite:cn",
+            "geosite:geolocation-cn"
+        ],
+        "enabled": true
+    },
+    {
+        "id": "5569083839694977481",
+        "outboundTag": "direct",
+        "ip": [
+            "223.5.5.5/32",
+            "119.29.29.29/32",
+            "180.76.76.76/32",
+            "114.114.114.114/32",
+            "geoip:private",
+            "geoip:cn"
+        ],
+        "enabled": true
+    },
+    {
+        "id": "5659678560184477332",
+        "port": "0-65535",
+        "outboundTag": "proxy",
+        "enabled": true
+    }
+]
