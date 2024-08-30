@@ -5,6 +5,7 @@
         "outboundTag": "proxy",
         "domain": [
             "domain:4pda.to",
+            "domain:nnmclub.to",
             "domain:activestate.com",
             "domain:amazon.com",
             "domain:amd.com",
@@ -185,7 +186,11 @@
             "domain:windguru.cz",
             "domain:wonderclub.com",
             "domain:wunderground.com",
-            "domain:yourdictionary.com"
+            "domain:yourdictionary.com",
+            "domain:itch.io",
+            "domain:f95zone.to",
+            "domain:kemono.su",
+            "domain:rutracker.org"
         ]
     }
 ]
